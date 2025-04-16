@@ -16,7 +16,7 @@ CREATE TABLE Users (
 -- Tartalom tábla (Content)
 CREATE TABLE Content (
     ID INT AUTO_INCREMENT PRIMARY KEY,
-    UserID INT,  -- Hozzáadott oszlop a felhasználó azonosítójának tárolására
+    UserID INT,
     Title VARCHAR(255) NOT NULL,
     Content TEXT NOT NULL,
     CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
